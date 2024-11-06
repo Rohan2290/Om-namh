@@ -16,14 +16,14 @@ LOG = logging.getLogger(__name__)
 ENV = bool(os.environ.get("ENV",False))
 
 if ENV:
-    API_ID=int(os.environ.get("API_ID",""))
-    API_HASH=str(os.environ.get("API_HASH",""))
-    TOKEN=str(os.environ.get("TOKEN",""))
-    SUDO = list(int(i) for i in os.environ.get("SUDO", "6691393517").split(" "))
-    START_IMG=str(os.environ.get("START_IMG",""))
-    BOT_ID=int(os.environ.get("BOT_ID",""))
-    BOT_USERNAME=str(os.environ.get("BOT_USERNAME",""))
-    BOT_NAME=str(os.environ.get("BOT_NAME",""))
+    API_ID=int(os.environ.get("API_ID","25206101"))
+    API_HASH=str(os.environ.get("API_HASH","2135724a8fdecb737f31d22ec8e6894b"))
+    TOKEN=str(os.environ.get("TOKEN","7657159740:AAHjfaLL2CTyJKqsJqXQl55Fk5NY9EuhR3c"))
+    SUDO = list(int(i) for i in os.environ.get("SUDO", "7601457849").split(" "))
+    START_IMG=str(os.environ.get("START_IMG","https://graph.org/file/4308dcc94aacbdc3ed0c9-c04a9611c927588ddc.jpg"))
+    BOT_ID=int(os.environ.get("BOT_ID","7657159740"))
+    BOT_USERNAME=str(os.environ.get("BOT_USERNAME","http://t.me/Copyrightremover213bot"))
+    BOT_NAME=str(os.environ.get("BOT_NAME","copyright Remover bot"))
 
 else:
     API_ID=Config.API_ID
