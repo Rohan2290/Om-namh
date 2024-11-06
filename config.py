@@ -1,10 +1,10 @@
 import os
 class Config:
-    API_ID=24509589
-    API_HASH="717cf21d94c4934bcbe1eaa1ad86ae75"
-    TOKEN="6572403691:AAFV-3PpCb7N06uqJC2mCdK4QzW6VtV5CeE"
-    SUDO = list(int(i) for i in os.environ.get("SUDO", "6664582540").split(" "))
-    START_IMG="https://telegra.ph/file/52fefb8bd51289a83a49b.jpg"
-    BOT_ID=6796545941
-    BOT_USERNAME="ZuliaiBot"
-    BOT_NAME="ZuliaiBot"
+    API_ID=25206101
+    API_HASH="2135724a8fdecb737f31d22ec8e6894b"
+    TOKEN="7657159740:AAHjfaLL2CTyJKqsJqXQl55Fk5NY9EuhR3c"
+    SUDO = list(int(i) for i in os.environ.get("SUDO", "7601457849").split(" "))
+    START_IMG="https://graph.org/file/4308dcc94aacbdc3ed0c9-c04a9611c927588ddc.jpg"
+    BOT_ID=7657159740
+    BOT_USERNAME="@Copyrightremover213bot"
+    BOT_NAME="copyright remover bot"
